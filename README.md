@@ -1,2 +1,1 @@
-#prog2
-#sz
+# prog2
