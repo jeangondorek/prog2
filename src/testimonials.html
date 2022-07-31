@@ -19,55 +19,52 @@
                 <li><a href="enterprise.html">Empresa</a></li>
                 <li><a href="events.html">Eventos</a></li>
                 <li><a href="gallery.html">Galeria</a></li>
-                <li><a href="testimonials.html">Depoimentos</a></li>
+                <li><a class="active" href="testimonials.html">Depoimentos</a></li>
                 <li><a href="contact.html">Contatos</a></li>
             </ul>
         </div>
     </nav>
+
     <header>
-        <div id="slider">
-            <div class="slide">
-                <img class="slide_background-image" src="./images/banner.jpg" alt="Studion Banner"/>
-                <div class="slide_copy">
-                    <h6>DO NO TOO</h6>
+        <div class="hero">
+            <img src="./images/contact.jpg" alt="" class="hero__background">
+            <div class="container hero__container">
+                <div class="hero__copy">
+                    <h2>.depoimentos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis sed blanditiis iste deleniti aspernatur ab ducimus culpa ea saepe ex numquam quibusdam commodi, eaque architecto. In deleniti corporis ipsa!</p>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="counter">
-            <ul class="container counter_cointainer">
-                <li>
-                    <h3>+ de 500<small> eventos realizados</small></h3>
-                </li>
-                <li>
-                    <h3>+ de 1.000.000<small>de ingressos vendidos</small></h3>
-                </li>
-                <li>
-                    <h3>+ de 300<small>empresas atendidas</small></h3>
-                </li>
-            </ul>
-        </section>
-        <section class="container institutional">
-            <img class="institutional_image" src="./images/institutional.jpg" alt="Studion Institutional"/>
-            <div class="institutional_copy">
-                <h6>Fazemos seu evento acontecer</h6>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae repellendus harum
-                    earum ipsa laboriosam omnis, dolorum facilis architecto modi sapiente eaque tenetur vel
-                    reprehenderit. Suscipit commodi adipisci nemo aliquam?</p>
-                <button class="btn btn_institutional">Saiba Mais</button>
-            </div>
-        </section>
-        <section class="quote">
-            <div class="container quote_container">
-                <div class="quote_copy">
-                    <h6>Você informa a temática e nós planejamos um evento com tecnologia e </h6>
-                    <h2><Span class="copy-primary">Muito + </Span> diversão</h2>
-                    <button class="btn btn-quote">Fazer Cotação</button>
+        <section class="testimonials">
+            <section class="testimonials__info">
+                <div class="testimonials__info_container">
+                    <h3>Lisa Andrade</h3>
+                    <span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In placeat maiores corrupti quos eligendi pariatur fuga laborum sequi eveniet aspernatur accusamus enim, debitis ab sint consequatur, ipsam optio suscipit est!
+                    </span>
+                    <h3>Carlinhos Beiramar</h3>
+                    <span>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque similique deserunt voluptates architecto sequi debitis error facilis repudiandae minus ad. Quibusdam quae dolorem asperiores voluptate, ratione vitae architecto officiis alias.
+                    </span>
                 </div>
-            </div>
+            </section>
+
+            <section class="testimonials__form">
+                <form class="testimonials__form_container" action="">
+                    <h3>Deixe seu depoimento</h3>
+                    <label for="name">Seu nome</label>
+                    <input type="text" id="name" />
+                    <label for="email">Seu email</label>
+                    <input type="email" id="email"/>
+                    <label for="mensagem">Seu depoimento</label>
+                    <input type="text" id="mensagem" />
+                    <button class="btn btn--testimonials" type="submit">Enviar</button>
+                </form>
+            </section>
+
         </section>
     </main>
     
