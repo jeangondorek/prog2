@@ -32,8 +32,12 @@
     color: #fff;
 }
 
-.navbar__links a.active{
+.navbar__links{
     color: var(--color-copy);
+}
+
+a.active{
+    color: var(--color-primary);
 }
 
 .navbar__links a:hover{
